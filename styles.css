@@ -1,0 +1,87 @@
+:root {
+  --primary-bg: rgba(44, 62, 80, 1);
+  --secondary-bg: rgba(0, 0, 0, 0.9);
+  --box-shadow-color-1: gold;
+  --box-shadow-color-2: rgba(149, 165, 166, 0.1);
+  --box-shadow-color-3: #ecf0f1;
+  --phone-width: 350px;
+  --phone-height: 700px;
+}
+
+body {
+  background-color: var(--secondary-bg);
+}
+
+.container {
+  background-color: var(--secondary-bg);
+  height: var(--phone-height);
+  width: var(--phone-width);
+  margin: 35px auto;
+  border-radius: 24px;
+  position: relative;
+  box-shadow: inset 1px 2px 1px 0px var(--box-shadow-color-1),
+    1px 8px 3px 3px var(--box-shadow-color-2);
+}
+
+.camera {
+  height: 6px;
+  width: 6px;
+  background-color: var(--primary-bg);
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 20px;
+}
+
+.left {
+  background-color: var(--primary-bg);
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  left: 33%;
+  top: 30px;
+}
+
+.right {
+  background-color: var(--primary-bg);
+  height: 7px;
+  width: 55px;
+  border-radius: 80px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 37px;
+}
+
+.screen {
+  width: 90%;
+  height: 80%;
+  background-color: var(--primary-bg);
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 345px;
+  border-radius: 6px;
+}
+
+.botton {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 100px;
+
+  background-color: var(--secondary-bg);
+  box-shadow: -1px 1px 1px 0px var(--box-shadow-color-1),
+    0px 0px 1px 1px var(--box-shadow-color-2),
+    -1px -3px 6px -2px var(--box-shadow-color-3);
+}
