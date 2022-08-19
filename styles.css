@@ -10,6 +10,7 @@
 
 body {
   background-color: var(--secondary-bg);
+  height: 100vh;
 }
 
 .container {
@@ -81,7 +82,8 @@ body {
   top: 100px;
 
   background-color: var(--secondary-bg);
-  box-shadow: -1px 1px 1px 0px var(--box-shadow-color-1),
-    0px 0px 1px 1px var(--box-shadow-color-2),
-    -1px -3px 6px -2px var(--box-shadow-color-3);
+  box-shadow: -1px 1px 1px var(--box-shadow-color-1),
+    0px 0px 1px var(--box-shadow-color-2),
+    -1px -3px 6px var(--box-shadow-color-3);
 }
+
